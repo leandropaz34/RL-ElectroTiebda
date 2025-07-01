@@ -1,2 +1,2 @@
-# RL-ElectroTiebda
+# RL-ElectroTienda
 Tienda Virtual
