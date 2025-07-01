@@ -1,7 +1,53 @@
- <section id="carrito" class="carrito">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RL-ElectroTienda</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>RL-ElectroTienda</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="pages/productos.html">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="pages/carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Ofertas en tecnología para tu hogar</h2>
+    <p>Explorá nuestra selección de electrodomésticos y gadgets electrónicos</p>
+  </section>
+
+
+
+
+<section id="carrito" class="carrito">
     <h2>Carrito de Compras</h2>
     <ul id="lista-carrito"></ul>
     <p>Total: $<span id="total">0</span></p>
     <button onclick="vaciarCarrito()">Vaciar carrito</button>
     <button onclick="enviarPedido()">Enviar pedido</button>
   </section>
+
+
+
+ 
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Escribinos a <a href="mailto:rl.electrotienda@gmail.com">rl.electrotienda@gmail.com</a></p>
+    <p>O mandanos un WhatsApp al <a href="https://wa.me/5491176427262" target="_blank">+54 9 11 7642-7262</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ElectroTienda. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/carrito.js"></script>
+</body>
+</html>
